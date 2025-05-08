@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e6fa;
+    color: #333;
+    padding: 70px;
+    line-height: 1.6;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff0f5;
+    padding: 30px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #ff69b4;
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    color: #ffa07a;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .main-img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .description {
+    margin: 15px 0;
+  }
+  
+  .album-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: default;
+    font-weight: bold;
+  }
+  
+  
+  .albums {
+    margin-top: 40px;
+  }
+  
+  .album {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .album img {
+    max-width: 170px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .album div {
+    flex: 1;
+  }
+  
+  .album h2 {
+    margin-bottom: 5px;
+    color: #ff69b4;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .album {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .album img {
+      margin: 0 0 10px 0;
+    }
+  }
