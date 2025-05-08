@@ -1,2 +1,2 @@
 # tribute-page-JK-368
-my tribute page.
+my tribute page assignment.
